@@ -38,8 +38,6 @@ Based on the data profile of the Lending Club dataset, there is enough sufficien
  
 •	Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
 
-•	Current: Applicant is in the process of paying the instalments, the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
-
 •	Charged-off: Applicant has not paid the instalments in due time for a long period of time, client has defaulted on the loan
 
 Initally, there were over two million observations and 151 variables within the asset. In the first two notebooks, NB1 and NB2, these were used primarily for reducing the asset, sanity checking, lite data exploration. In NB2 were were able to reduce the asset to roughly over 240k of observations and around 37 variabiales with the new asset. 
