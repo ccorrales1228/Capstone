@@ -1,4 +1,4 @@
-# Capstone Proposal- Loan Default Modeling for Lending Club
+# Loan Default Modeling for Lending Club
 ## Capstone MVP (Minimum Viable Product)
 
 
