@@ -1,4 +1,4 @@
-# Capstone Proposal- Credit Risk Modeling for Lending Club
+# Capstone Proposal- Loan Default Modeling for Lending Club
 ## Capstone MVP (Minimum Viable Product)
 
 
