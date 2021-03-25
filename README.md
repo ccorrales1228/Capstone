@@ -13,10 +13,16 @@ Datasets were sourced via Kaggle:
 * https://www.kaggle.com/wordsforthewise/lending-club
 * https://www.kaggle.com/ethon0426/lending-club-20072020q1
 
+![Screen Shot 2021-03-25 at 9 14 28 AM](https://user-images.githubusercontent.com/61753153/112478567-87c71680-8d4a-11eb-8f37-c2e416bb74ac.png)
+
+
 ## The Business: Lending Club
 
 ### Overview
 Lending Club is a peer to peer lending company based in the United States, in which investors provide funds for potential borrowers and investors earn a profit depending on the risk they take (the borrowers credit score). The company also registers its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. Lending Club provides the "bridge" between investors and borrowers
+
+![7510721-15592751779598007](https://user-images.githubusercontent.com/61753153/112480714-af1ee300-8d4c-11eb-8e28-8b34cb4245ff.png)
+
 
 ### Business Interest
 The client (Lending Club) wants to capture applicants that would be able to repay the loan and also identify potentially high-risk borrowers that are likely to default. In turn, the client wants to reduce the potential loss of business of applicants that are likely to not default and identifying applicants that are likely to default. 
@@ -40,7 +46,12 @@ Based on the data profile of the Lending Club dataset, there is enough sufficien
 
 •	Charged-off: Applicant has not paid the instalments in due time for a long period of time, client has defaulted on the loan
 
-Initally, there were over two million observations and 151 variables within the asset. In the first two notebooks, NB1 and NB2, these were used primarily for reducing the asset, sanity checking, lite data exploration. In NB2 were were able to reduce the asset to roughly over 240k of observations and around 37 variabiales with the new asset. 
+![Screen Shot 2021-03-25 at 7 33 14 AM](https://user-images.githubusercontent.com/61753153/112477666-a24cc000-8d49-11eb-9359-e2845322a404.png)
+
+
+Initally, there were over two million observations and 151 variables within the asset. In the first two notebooks, NB1 and NB2, these were used primarily for reducing the asset, sanity checking, lite data exploration. In NB2 were were able to reduce the asset to roughly over 240k of observations and around 27 variabiales with the new asset. 
+
+![Screen Shot 2021-03-25 at 7 23 34 AM](https://user-images.githubusercontent.com/61753153/112477825-c5776f80-8d49-11eb-8ead-a8efd1afe536.png)
 
 The CSV process-flow: accepted_2007_to_2018Q4 >> clean_accepted >> clean_accepted_2 >> clean_accepted_3
 
@@ -51,7 +62,13 @@ For reference, the bulk of the initiative begins in NB3 and continues into NB4.
 ## Modeling
 Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
 
+![Screen Shot 2021-03-25 at 7 58 19 AM](https://user-images.githubusercontent.com/61753153/112478092-01aad000-8d4a-11eb-855a-d610950922ad.png)
+
+
 In regard to the target variable (default and non-default), this project will be a classification problem. The baseline model will be logistic regression classifier. After baseline analysis I will then apply various classification models: Decision Tree Classifier, Random Forest Classifier, to name a few examples. Following un-tuned model evaluation (recall, precision, F-1, and confusion matrix), the application of GridSearch CV, and some bespoke hyperparameter tuning will follow. Also, at this point, stacking, blending, and boosting as modalities to help with optimization will be considered. Again, throughout the modeling process, the application on model evaluation will aid in determining which model will be best in respect to a minimum viable product. 
+
+![Screen Shot 2021-03-25 at 9 18 49 AM](https://user-images.githubusercontent.com/61753153/112479189-2d7a8580-8d4b-11eb-80b2-0c96a534f87d.png)
+
 
 If successful, the model will be able to correctly classify clients who will be at risk of defaulting. It is imperative to focus on the mission of this project is to mitigate misclassification, as the client wants to reduce the likelihood of not identifying high-risk applicants that may default and not capturing possible clients who would be an ideal candidate for their services. Additionally, our client will gain a better understanding of enhancing their application process to be more inclusive of applicants with lower FICO score, economic demography (such as lifestyle, occupation, and education), and financial need use cases. 
 
@@ -59,8 +76,4 @@ If successful, the model will be able to correctly classify clients who will be 
 
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
 
-
-
-
-
-
+![Dashboard 1 (2)](https://user-images.githubusercontent.com/61753153/112478237-2d2dba80-8d4a-11eb-88ca-6d511b8997d3.png)
