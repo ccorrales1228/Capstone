@@ -1,4 +1,5 @@
-![Screen Shot 2021-04-01 at 7 53 39 AM](https://user-images.githubusercontent.com/61753153/113290293-712b3d00-92bf-11eb-8565-310f140e4d5b.png)
+![Screen Shot 2021-04-01 at 8 06 27 AM](https://user-images.githubusercontent.com/61753153/113291549-30ccbe80-92c1-11eb-9acc-597b201f4f53.png)
+
 
 Note to vistors:
 This is intended for academic purposes. 
@@ -105,4 +106,7 @@ If successful, the model will be able to correctly classify clients who will be 
 ![Screen Shot 2021-04-01 at 7 14 00 AM](https://user-images.githubusercontent.com/61753153/113286203-dda33d80-92b9-11eb-91b2-6e50aec874a3.png)
 
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
+
+![Screen Shot 2021-04-01 at 8 04 57 AM](https://user-images.githubusercontent.com/61753153/113291480-185ca400-92c1-11eb-99d8-d1548f261a66.png)
+
 
