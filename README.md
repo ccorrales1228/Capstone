@@ -106,5 +106,3 @@ If successful, the model will be able to correctly classify clients who will be 
 
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
 
-
-
