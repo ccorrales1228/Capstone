@@ -66,21 +66,22 @@ The primary reason for this the data reduction was due to low memory issues and 
 (3) Final Pre-Processing, Modeling, Model Analysis, and Project Report: FinalNB_Modeling_Evaluations_Analysis
 
 ## Modeling
-Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
+* Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
 
-![Screen Shot 2021-03-25 at 7 58 19 AM](https://user-images.githubusercontent.com/61753153/112478092-01aad000-8d4a-11eb-855a-d610950922ad.png)
-
+![Screen Shot 2021-04-01 at 7 18 03 AM](https://user-images.githubusercontent.com/61753153/113286863-c022a380-92ba-11eb-99e5-fb6ba9c660ef.png)
 
 In regard to the target variable (default and non-default), this project will be a classification problem. The baseline model will be logistic regression classifier. After baseline analysis I will then apply various classification models: Decision Tree Classifier, Random Forest Classifier, to name a few examples. Following un-tuned model evaluation (recall, precision, F-1, and confusion matrix), the application of GridSearch CV, and some bespoke hyperparameter tuning will follow. Also, at this point, stacking, blending, and boosting as modalities to help with optimization will be considered. Again, throughout the modeling process, the application on model evaluation will aid in determining which model will be best in respect to a minimum viable product. 
 
-![Screen Shot 2021-03-25 at 9 18 49 AM](https://user-images.githubusercontent.com/61753153/112479189-2d7a8580-8d4b-11eb-80b2-0c96a534f87d.png)
+![Screen Shot 2021-04-01 at 7 16 34 AM](https://user-images.githubusercontent.com/61753153/113286450-3b378a00-92ba-11eb-832a-32e6a046dac9.png)![Uploading Screen Shot 2021-04-01 at 7.18.03 AM.png…]()
 
 
 If successful, the model will be able to correctly classify clients who will be at risk of defaulting. It is imperative to focus on the mission of this project is to mitigate misclassification, as the client wants to reduce the likelihood of not identifying high-risk applicants that may default and not capturing possible clients who would be an ideal candidate for their services. Additionally, our client will gain a better understanding of enhancing their application process to be more inclusive of applicants with lower FICO score, economic demography (such as lifestyle, occupation, and education), and financial need use cases. 
 
 ## Next Steps
 
+![Screen Shot 2021-04-01 at 7 14 00 AM](https://user-images.githubusercontent.com/61753153/113286203-dda33d80-92b9-11eb-91b2-6e50aec874a3.png)
+
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
 
-![Screen Shot 2021-04-01 at 7 14 00 AM](https://user-images.githubusercontent.com/61753153/113286203-dda33d80-92b9-11eb-91b2-6e50aec874a3.png)
+
 
