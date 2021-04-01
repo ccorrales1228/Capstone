@@ -1,4 +1,4 @@
-# Loan Default Modeling for Lending Club
+![Screen Shot 2021-04-01 at 7 53 39 AM](https://user-images.githubusercontent.com/61753153/113290293-712b3d00-92bf-11eb-8565-310f140e4d5b.png)
 
 Note to vistors:
 This is intended for academic purposes. 
@@ -50,9 +50,9 @@ Based on the data profile of the Lending Club dataset, there is enough sufficien
 
 Initally, there were over two million observations and 151 variables within the asset. In the first two notebooks, NB1 and NB2, these were used primarily for reducing the asset, sanity checking, lite data exploration. In NB2 were were able to reduce the asset to roughly over 240k of observations and around 27 variabiales with the new asset. 
 
-![Screen Shot 2021-04-01 at 7 11 42 AM](https://user-images.githubusercontent.com/61753153/113286081-b3518000-92b9-11eb-8e4a-a5994100fe68.png)
+![Screen Shot 2021-04-01 at 7 48 45 AM](https://user-images.githubusercontent.com/61753153/113289875-cfa3eb80-92be-11eb-86f6-1987ea85967a.png)
 
-The CSV process-flow: accepted_2007_to_2018Q4 >> clean_accepted >> clean_accepted_2 >> clean_accepted_3
+* The CSV process-flow: accepted_2007_to_2018Q4 >> clean_accepted >> clean_accepted_2 >> clean_accepted_3
 
 The primary reason for this the data reduction was due to low memory issues and intensive computing processing limitations. However, in the second iteration of the initiative we will implement possible external dependencies, change of workflow management, and poach for possible external GPU/memory server management systems.
 
