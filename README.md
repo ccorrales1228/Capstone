@@ -22,15 +22,19 @@ Lending Club is a peer to peer lending company based in the United States, in wh
 ![7510721-15592751779598007](https://user-images.githubusercontent.com/61753153/112480714-af1ee300-8d4c-11eb-8e28-8b34cb4245ff.png)
 
 
+
 ### Business Interest
 The client (Lending Club) wants to capture applicants that would be able to repay the loan and also identify potentially high-risk borrowers that are likely to default. In turn, the client wants to reduce the potential loss of business of applicants that are likely to not default and identifying applicants that are likely to default. 
 
 ![Screen Shot 2021-04-01 at 7 31 14 AM](https://user-images.githubusercontent.com/61753153/113287980-50adb380-92bc-11eb-9aba-0a76736b34c4.png)
 
+
 ### Social Implication
 Historically, there is a stigma that lending/loan services have neglected, segregated, and also marginalized applicants from the ability to qualify for a loan will be considered throughout the analysis and within the outlook of the project. Although, the aim is to identify patterns which indicate if a person will likely default based on historical data. The goal is also to help make the application process both inclusive and ethically sound—be it in the form of identifying patterns of exclusion or recommending new product types to open the doors to help future applicants gain an opportunity to qualify for a loan. 
 
 ![Screen Shot 2021-04-01 at 7 33 09 AM](https://user-images.githubusercontent.com/61753153/113288150-8fdc0480-92bc-11eb-9138-d2e06571b62e.png)
+
+
 
 ## The Data
 
@@ -52,6 +56,8 @@ The CSV process-flow: accepted_2007_to_2018Q4 >> clean_accepted >> clean_accepte
 
 The primary reason for this the data reduction was due to low memory issues and intensive computing processing limitations. However, in the second iteration of the initiative we will implement possible external dependencies, change of workflow management, and poach for possible external GPU/memory server management systems.
 
+
+
 ## Notebook Repository Reference
 
 (1) Asset (data) Reduction and Data Wrangling: 
@@ -70,6 +76,8 @@ EDA (bivariant analysis with respect to our response (target) variable), Modelin
 (3) Final Pre-Processing, Modeling, Model Analysis, and Project Report
 * FinalNB_Modeling_Evaluations_Analysis
 
+
+
 ## Modeling
 * Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
 
@@ -81,6 +89,8 @@ In regard to the target variable (default and non-default), this project will be
 
 
 If successful, the model will be able to correctly classify clients who will be at risk of defaulting. It is imperative to focus on the mission of this project is to mitigate misclassification, as the client wants to reduce the likelihood of not identifying high-risk applicants that may default and not capturing possible clients who would be an ideal candidate for their services. Additionally, our client will gain a better understanding of enhancing their application process to be more inclusive of applicants with lower FICO score, economic demography (such as lifestyle, occupation, and education), and financial need use cases. 
+
+
 
 ## Next Steps
 
