@@ -12,8 +12,9 @@ Datasets were sourced via Kaggle:
 * https://www.kaggle.com/wordsforthewise/lending-club
 * https://www.kaggle.com/ethon0426/lending-club-20072020q1
 
-![Screen Shot 2021-03-25 at 9 14 28 AM](https://user-images.githubusercontent.com/61753153/112478567-87c71680-8d4a-11eb-8f37-c2e416bb74ac.png)
+---
 
+![Screen Shot 2021-03-25 at 9 14 28 AM](https://user-images.githubusercontent.com/61753153/112478567-87c71680-8d4a-11eb-8f37-c2e416bb74ac.png)
 
 ## The Business: Lending Club
 
@@ -35,7 +36,7 @@ Historically, there is a stigma that lending/loan services have neglected, segre
 
 ![Screen Shot 2021-04-01 at 7 33 09 AM](https://user-images.githubusercontent.com/61753153/113288150-8fdc0480-92bc-11eb-9138-d2e06571b62e.png)
 
-
+---
 
 ## The Data
 
@@ -57,16 +58,18 @@ Initally, there were over two million observations and 151 variables within the 
 
 The primary reason for this the data reduction was due to low memory issues and intensive computing processing limitations. However, in the second iteration of the initiative we will implement possible external dependencies, change of workflow management, and poach for possible external GPU/memory server management systems.
 
-
+---
 
 ## Notebook Repository Reference
 
 (1) Asset (data) Reduction and Data Wrangling: 
 * NB1_ Data_Volume_Reduction 
-* NB2_Cleaning_Lite_EDA.ipynb
+* NB2_Cleaning_Lite_EDA
+
 
 
 (2) MVP (Minimum Viable Product):
+
 EDA (univariant) and Additional Data Clensing 
 * NB3_Data_Wrangling_EDA1
 
@@ -74,11 +77,14 @@ EDA (bivariant analysis with respect to our response (target) variable), Modelin
 * NB4_EDA2_Modeling_Analysis
 
 
+
 (3) Final Pre-Processing, Modeling, Model Analysis, and Project Report
 * FinalNB_Modeling_Evaluations_Analysis
 
 
+
 (4) Additional Documents:
+
 Data Dictionary with feature variable references
 * LC_Data_Dictionary 
 
@@ -86,6 +92,7 @@ Presentation Decks
 * MVP_Reporting_Deck
 * Final_Capstone_Reporting_Deck
 
+---
 
 ## Modeling
 * Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
@@ -99,13 +106,15 @@ In regard to the target variable (default and non-default), this project will be
 
 If successful, the model will be able to correctly classify clients who will be at risk of defaulting. It is imperative to focus on the mission of this project is to mitigate misclassification, as the client wants to reduce the likelihood of not identifying high-risk applicants that may default and not capturing possible clients who would be an ideal candidate for their services. Additionally, our client will gain a better understanding of enhancing their application process to be more inclusive of applicants with lower FICO score, economic demography (such as lifestyle, occupation, and education), and financial need use cases. 
 
-
+---
 
 ## Next Steps
 
 ![Screen Shot 2021-04-01 at 7 14 00 AM](https://user-images.githubusercontent.com/61753153/113286203-dda33d80-92b9-11eb-91b2-6e50aec874a3.png)
 
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
+
+---
 
 ![Screen Shot 2021-04-01 at 8 04 57 AM](https://user-images.githubusercontent.com/61753153/113291480-185ca400-92c1-11eb-99d8-d1548f261a66.png)
 
