@@ -25,11 +25,7 @@ Lending Club is a peer to peer lending company based in the United States, in wh
 ### Business Interest
 The client (Lending Club) wants to capture applicants that would be able to repay the loan and also identify potentially high-risk borrowers that are likely to default. In turn, the client wants to reduce the potential loss of business of applicants that are likely to not default and identifying applicants that are likely to default. 
 
-This is key to the business interests of the client: 
-
-(1) They do not want to miss-classify prospective applicants during their pre-screening process
-
-(2) Manage their operational risk appetite by classifying potential applicants that could be considered at risk of defaulting down the line.
+![Screen Shot 2021-04-01 at 7 31 14 AM](https://user-images.githubusercontent.com/61753153/113287980-50adb380-92bc-11eb-9aba-0a76736b34c4.png)
 
 ### Social Implication
 Historically, there is a stigma that lending/loan services have neglected, segregated, and also marginalized applicants from the ability to qualify for a loan will be considered throughout the analysis and within the outlook of the project. Although, the aim is to identify patterns which indicate if a person will likely default based on historical data. The goal is also to help make the application process both inclusive and ethically sound—be it in the form of identifying patterns of exclusion or recommending new product types to open the doors to help future applicants gain an opportunity to qualify for a loan. 
@@ -64,6 +60,7 @@ The primary reason for this the data reduction was due to low memory issues and 
 (2) MVP (Minimum Viable Product):
 EDA (univariant) and Additional Data Clensing 
 * NB3_Data_Wrangling_EDA1
+
 EDA (bivariant analysis with respect to our response (target) variable), Modeling, and Analysis 
 * NB4_EDA2_Modeling_Analysis
 
