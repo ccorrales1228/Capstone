@@ -56,14 +56,21 @@ The primary reason for this the data reduction was due to low memory issues and 
 
 ## Notebook Repository Reference
 
-(1) Asset (data) Reduction and Data Wrangling: NB1_ Data_Volume_Reduction and NB2_Cleaning_Lite_EDA.ipynb
+(1) Asset (data) Reduction and Data Wrangling: 
+
+* NB1_ Data_Volume_Reduction 
+* NB2_Cleaning_Lite_EDA.ipynb
 
 (2) MVP (Minimum Viable Product):
 
-* EDA (univariant) and Additional Data Clensing: NB3_Data_Wrangling_EDA1
-* EDA (bivariant analysis with respect to our response (target) variable), Modeling, and Analysis: NB4_EDA2_Modeling_Analysis
+EDA (univariant) and Additional Data Clensing 
+* NB3_Data_Wrangling_EDA1
 
-(3) Final Pre-Processing, Modeling, Model Analysis, and Project Report: FinalNB_Modeling_Evaluations_Analysis
+EDA (bivariant analysis with respect to our response (target) variable), Modeling, and Analysis 
+* NB4_EDA2_Modeling_Analysis
+
+(3) Final Pre-Processing, Modeling, Model Analysis, and Project Report
+* FinalNB_Modeling_Evaluations_Analysis
 
 ## Modeling
 * Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
