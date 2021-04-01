@@ -30,6 +30,8 @@ The client (Lending Club) wants to capture applicants that would be able to repa
 ### Social Implication
 Historically, there is a stigma that lending/loan services have neglected, segregated, and also marginalized applicants from the ability to qualify for a loan will be considered throughout the analysis and within the outlook of the project. Although, the aim is to identify patterns which indicate if a person will likely default based on historical data. The goal is also to help make the application process both inclusive and ethically sound—be it in the form of identifying patterns of exclusion or recommending new product types to open the doors to help future applicants gain an opportunity to qualify for a loan. 
 
+![Screen Shot 2021-04-01 at 7 33 09 AM](https://user-images.githubusercontent.com/61753153/113288150-8fdc0480-92bc-11eb-9138-d2e06571b62e.png)
+
 ## The Data
 
 Throughout this iniative we will occassionally refer to the dataset as "the asset". 
@@ -75,7 +77,7 @@ EDA (bivariant analysis with respect to our response (target) variable), Modelin
 
 In regard to the target variable (default and non-default), this project will be a classification problem. The baseline model will be logistic regression classifier. After baseline analysis I will then apply various classification models: Decision Tree Classifier, Random Forest Classifier, to name a few examples. Following un-tuned model evaluation (recall, precision, F-1, and confusion matrix), the application of GridSearch CV, and some bespoke hyperparameter tuning will follow. Also, at this point, stacking, blending, and boosting as modalities to help with optimization will be considered. Again, throughout the modeling process, the application on model evaluation will aid in determining which model will be best in respect to a minimum viable product. 
 
-![Screen Shot 2021-04-01 at 7 16 34 AM](https://user-images.githubusercontent.com/61753153/113286450-3b378a00-92ba-11eb-832a-32e6a046dac9.png)![Uploading Screen Shot 2021-04-01 at 7.18.03 AM.png…]()
+![Screen Shot 2021-04-01 at 7 16 34 AM](https://user-images.githubusercontent.com/61753153/113286450-3b378a00-92ba-11eb-832a-32e6a046dac9.png)
 
 
 If successful, the model will be able to correctly classify clients who will be at risk of defaulting. It is imperative to focus on the mission of this project is to mitigate misclassification, as the client wants to reduce the likelihood of not identifying high-risk applicants that may default and not capturing possible clients who would be an ideal candidate for their services. Additionally, our client will gain a better understanding of enhancing their application process to be more inclusive of applicants with lower FICO score, economic demography (such as lifestyle, occupation, and education), and financial need use cases. 
