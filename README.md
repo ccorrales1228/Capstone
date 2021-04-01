@@ -66,6 +66,7 @@ The primary reason for this the data reduction was due to low memory issues and 
 
 
 (2) MVP (Minimum Viable Product):
+
 EDA (univariant) and Additional Data Clensing 
 * NB3_Data_Wrangling_EDA1
 
@@ -74,8 +75,18 @@ EDA (bivariant analysis with respect to our response (target) variable), Modelin
 
 
 (3) Final Pre-Processing, Modeling, Model Analysis, and Project Report
+
 * FinalNB_Modeling_Evaluations_Analysis
 
+
+(4) Additional Documents:
+
+Data Dictionary with feature variable references
+* LC_Data_Dictionary 
+
+Presentation Decks
+* MVP_Reporting_Deck
+* Final_Capstone_Reporting_Deck
 
 
 ## Modeling
