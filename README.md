@@ -1,6 +1,4 @@
 # Loan Default Modeling for Lending Club
-## Capstone MVP (Minimum Viable Product)
-
 
 Note to vistors:
 This is intended for academic purposes. 
@@ -48,16 +46,24 @@ Based on the data profile of the Lending Club dataset, there is enough sufficien
 
 ![Screen Shot 2021-03-25 at 7 33 14 AM](https://user-images.githubusercontent.com/61753153/112477666-a24cc000-8d49-11eb-9359-e2845322a404.png)
 
-
 Initally, there were over two million observations and 151 variables within the asset. In the first two notebooks, NB1 and NB2, these were used primarily for reducing the asset, sanity checking, lite data exploration. In NB2 were were able to reduce the asset to roughly over 240k of observations and around 27 variabiales with the new asset. 
 
-![Screen Shot 2021-03-25 at 7 23 34 AM](https://user-images.githubusercontent.com/61753153/112477825-c5776f80-8d49-11eb-8ead-a8efd1afe536.png)
+![Screen Shot 2021-04-01 at 7 11 42 AM](https://user-images.githubusercontent.com/61753153/113286081-b3518000-92b9-11eb-8e4a-a5994100fe68.png)
 
 The CSV process-flow: accepted_2007_to_2018Q4 >> clean_accepted >> clean_accepted_2 >> clean_accepted_3
 
 The primary reason for this the data reduction was due to low memory issues and intensive computing processing limitations. However, in the second iteration of the initiative we will implement possible external dependencies, change of workflow management, and poach for possible external GPU/memory server management systems.
 
-For reference, the bulk of the initiative begins in NB3 and continues into NB4.
+## Notebook Repository Reference
+
+(1) Asset (data) Reduction and Data Wrangling: NB1_ Data_Volume_Reduction and NB2_Cleaning_Lite_EDA.ipynb
+
+(2) MVP (Minimum Viable Product):
+
+* EDA (univariant) and Additional Data Clensing: NB3_Data_Wrangling_EDA1
+* EDA (bivariant analysis with respect to our response (target) variable), Modeling, and Analysis: NB4_EDA2_Modeling_Analysis
+
+(3) Final Pre-Processing, Modeling, Model Analysis, and Project Report: FinalNB_Modeling_Evaluations_Analysis
 
 ## Modeling
 Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
@@ -76,4 +82,5 @@ If successful, the model will be able to correctly classify clients who will be 
 
 Lastly, addressing deployment, if viable within our given deadline—I intend to deploy the model and business intelligence analysis via a dashboard. This will be showcasing the initial user interface and be used for UAT (user acceptance testing). This will help in testing functionalities of the user/customer interface and a dashboard for internal use for our client to aid their product management and risk operation teams to better understand the customer journey. Further, the dashboard deployment can also assist the marketing analytics teams storyboard for future campaigns. Moreover, in terms of understanding the customer journey, it is imperative to also be mindful of developing a customer story that reflects inclusion, diversity, and access. Therefore, this initiative, is tailored not only for our client’s internal stakeholders, but it is also to help Lending Club lead the charge in potentially creating new product offerings (or enhancing their current model) that support a variety of candidates from various socio-economic backgrounds. 
 
-![Dashboard 1 (2)](https://user-images.githubusercontent.com/61753153/112478237-2d2dba80-8d4a-11eb-88ca-6d511b8997d3.png)
+![Screen Shot 2021-04-01 at 7 14 00 AM](https://user-images.githubusercontent.com/61753153/113286203-dda33d80-92b9-11eb-91b2-6e50aec874a3.png)
+
