@@ -17,7 +17,7 @@ Datasets were sourced via Kaggle:
 
 ![Screen Shot 2021-03-25 at 9 14 28 AM](https://user-images.githubusercontent.com/61753153/112478567-87c71680-8d4a-11eb-8f37-c2e416bb74ac.png)
 
-## The Business: Lending Club
+## The Business
 
 ### Overview
 Lending Club is a peer to peer lending company based in the United States, in which investors provide funds for potential borrowers and investors earn a profit depending on the risk they take (the borrowers credit score). The company also registers its offerings as securities with the Securities and Exchange Commission (SEC), and to offer loan trading on a secondary market. Lending Club provides the "bridge" between investors and borrowers
