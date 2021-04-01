@@ -57,17 +57,16 @@ The primary reason for this the data reduction was due to low memory issues and 
 ## Notebook Repository Reference
 
 (1) Asset (data) Reduction and Data Wrangling: 
-
 * NB1_ Data_Volume_Reduction 
 * NB2_Cleaning_Lite_EDA.ipynb
 
-(2) MVP (Minimum Viable Product):
 
+(2) MVP (Minimum Viable Product):
 EDA (univariant) and Additional Data Clensing 
 * NB3_Data_Wrangling_EDA1
-
 EDA (bivariant analysis with respect to our response (target) variable), Modeling, and Analysis 
 * NB4_EDA2_Modeling_Analysis
+
 
 (3) Final Pre-Processing, Modeling, Model Analysis, and Project Report
 * FinalNB_Modeling_Evaluations_Analysis
@@ -75,7 +74,7 @@ EDA (bivariant analysis with respect to our response (target) variable), Modelin
 ## Modeling
 * Subject to change based on performance benchmarks or recommendation(s) regarding requirements.
 
-![Screen Shot 2021-04-01 at 7 18 03 AM](https://user-images.githubusercontent.com/61753153/113286863-c022a380-92ba-11eb-99e5-fb6ba9c660ef.png)
+![Screen Shot 2021-04-01 at 7 27 09 AM](https://user-images.githubusercontent.com/61753153/113287548-bc435100-92bb-11eb-9cbc-9229cf292539.png)
 
 In regard to the target variable (default and non-default), this project will be a classification problem. The baseline model will be logistic regression classifier. After baseline analysis I will then apply various classification models: Decision Tree Classifier, Random Forest Classifier, to name a few examples. Following un-tuned model evaluation (recall, precision, F-1, and confusion matrix), the application of GridSearch CV, and some bespoke hyperparameter tuning will follow. Also, at this point, stacking, blending, and boosting as modalities to help with optimization will be considered. Again, throughout the modeling process, the application on model evaluation will aid in determining which model will be best in respect to a minimum viable product. 
 
